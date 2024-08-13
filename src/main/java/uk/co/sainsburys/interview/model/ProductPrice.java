@@ -25,26 +25,26 @@ public class ProductPrice {
     }
 
     public double getPrice() {
-        return price;
+        return unitPrice;
     }
 
     public void setPrice(double price) {
-        this.price = price;
+        this.unitPrice = price;
     }
 
     public String getMeasure() {
-        return measure;
+        return unitPriceMeasure;
     }
 
     public void setMeasure(String measure) {
-        this.measure = measure;
+        this.unitPriceMeasure = measure;
     }
 
     public int getMeasureAmount() {
-        return measureAmount;
+        return unitPriceMeasureAmount;
     }
 
     public void setMeasureAmount(int measureAmount) {
-        this.measureAmount = measureAmount;
+        this.unitPriceMeasureAmount = measureAmount;
     }
 }
