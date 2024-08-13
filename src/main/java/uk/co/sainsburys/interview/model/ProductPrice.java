@@ -1,10 +1,19 @@
 package uk.co.sainsburys.interview.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class ProductPrice {
+    @JsonProperty("product_uid")
     private String productUid;
-    private double price;
-    private String measure;
-    private int measureAmount;
+
+    @JsonProperty("unit_price")
+    private double unitPrice;
+
+    @JsonProperty("unit_price_measure")
+    private String unitPriceMeasure;
+
+    @JsonProperty("unit_price_measure_amount")
+    private int unitPriceMeasureAmount;
 
     // Getters and Setters
     public String getProductUid() {
