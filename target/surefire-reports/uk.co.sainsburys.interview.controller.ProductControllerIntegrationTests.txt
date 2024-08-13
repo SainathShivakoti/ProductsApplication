@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: uk.co.sainsburys.interview.controller.ProductControllerIntegrationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.979 s <<< FAILURE! - in uk.co.sainsburys.interview.controller.ProductControllerIntegrationTests
+uk.co.sainsburys.interview.controller.ProductControllerIntegrationTests.testGetProducts  Time elapsed: 1.58 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "$[0].productType"
+	at uk.co.sainsburys.interview.controller.ProductControllerIntegrationTests.testGetProducts(ProductControllerIntegrationTests.java:34)
+Caused by: com.jayway.jsonpath.PathNotFoundException: No results for path: $[0]['productType']
+

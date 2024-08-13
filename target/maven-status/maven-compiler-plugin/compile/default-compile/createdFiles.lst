@@ -1,0 +1,6 @@
+uk\co\sainsburys\interview\controller\ProductController.class
+uk\co\sainsburys\interview\ProductsApplication.class
+uk\co\sainsburys\interview\model\Product.class
+uk\co\sainsburys\interview\model\ProductPrice.class
+uk\co\sainsburys\interview\service\ProductService.class
+uk\co\sainsburys\interview\config\AppConfig.class
